@@ -6,14 +6,14 @@ import os
 import re
 
 # Folder Path for Australia
-folder_path = r"D:\Important Documents\Economic Data\World Government Bonds Rates Data\Australia"
+folder_path = r"{filepath}" <- # Insert your own data location for each country
 
 # Obtain All .csv Data
 csv_files = glob.glob(os.path.join(folder_path, "*.csv"))
 
 # ISO Code information for Australia
-iso_code = "AUS"
-iso_number = "036"
+iso_code = "AUS" <- # Alpha-3 ISO Code for each country
+iso_number = "036" <- # International Bank Account Number (IBAN) Code for each country
 
 # Initialize data frame lists
 data_frames = []
@@ -70,7 +70,8 @@ merged_dataframe = (
 )
 
 # Save all processes into excel file and determined path
-output_path = os.path.join("D:\Important Documents\Economic Data\World Government Bonds Rates Data\Australia", "Australia Bond Yields.xlsx")
+output_path = os.path.join("{filepath}", "{filename.xlsx}") <- # Location for saving the result in .xlsx format
 merged_dataframe.to_excel(output_path, index = False, sheet_name = "Data")
+
 
 print(f"All processes have completed, the cleansed dataset is available as Excel file:\n{output_path}")
