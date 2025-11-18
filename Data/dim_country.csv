@@ -1,0 +1,26 @@
+﻿CountryID,CountryName,RegionID
+AUS036,Australia,OC
+AUT040,Austria,EU
+BEL056,Belgium,EU
+BRA076,Brazil,SA
+CAN124,Canada,NA
+CHL152,Chile,SA
+CHN156,China,AS
+COL170,Colombia,SA
+FRA250,France,EU
+DEU276,Germany,EU
+HKG344,Hong Kong,AS
+IND356,India,AS
+IDN360,Indonesia,AS
+IRL372,Ireland,EU
+ITA380,Italy,EU
+JPN392,Japan,AS
+MYS458,Malaysia,AS
+SGP702,Singapore,AS
+ZAF710,South Africa,AF
+KOR408,South Korea,AS
+ESP724,Spain,EU
+NLD528,The Netherlands,EU
+NZL554,New Zealand,OC
+GBR826,United Kingdom,EU
+USA840,United States,NA
