@@ -4,4 +4,8 @@ In this repository, I devise a Database for World Government Bonds Market Yield,
 There are several tools that I implement in executing the project for this repository, including:
 - Pandas: cleaning and merging bonds yield data for different maturity time into single file (note: the creation of this Python Code is supported by ChatGPT),
 - Power Query: Merging all cleansed bonds yield data for 25 countries
-- MS SQL Server: Main Relational Database Management Systems (RDBMS) for devising the database.
+- MS SQL Server: Main Relational Database Management Systems (RDBMS) for devising the database.  
+
+Further, in devising Database Model for World Government Bonds Yield Data Warehouse, author employed Galaxy Schema (also known as Fact Constellation Schema) , where two different fact tables share common dimension tables. The Diagram of Database Model can be observed through this picture below.
+<img width="2710" height="2056" alt="World Government Bonds_Database Model" src="https://github.com/user-attachments/assets/db676194-7c8b-4a60-bdc6-69c471f367ee" />
+
