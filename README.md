@@ -1,16 +1,17 @@
-## World Government Bonds Market Yield Project
+# 📈 World Government Bonds Market Yield Project
+
+![SQL Server](https://img.shields.io/badge/Database-MSSQL-CC2927?style=for-the-badge&logo=microsoft-sql-server)
+![Python](https://img.shields.io/badge/Code-Python_3.12-3776AB?style=for-the-badge&logo=python)
 
 > **Designing a Database Model for World Government Bonds Yield Daily Data of Selected 25 Countries Through January 2020 until August 2025 by Implementing Medallion Architecture.**
 
 ---
 
-![SQL Server](https://img.shields.io/badge/Database-MSSQL-CC2927?style=for-the-badge&logo=microsoft-sql-server)
-![Python](https://img.shields.io/badge/Code-Python_3.12-3776AB?style=for-the-badge&logo=python)
-
+## 📖 Chapter I: Project Overview
 In this repository, I devise a Database for World Government Bonds Market Yield, encompassing 25 countries in which include Indonesia. The objective of this repository is to explore the government bonds yields and observe their daily trend over the period January 2020 until August 2025, encapsulating both Pandemic and Post-Pandemic Era. Furthermore, this database can be utilized within Economics & Finance environment for analyzing various aspects of bonds yield, such as Bonds Spread between Indonesia and US 10-Year Government Bond Yields to measure risk premium.  
 
 There are several tools that I implement in executing the project for this repository, including:
-- Pandas: cleaning and merging bonds yield data for different maturity time into single file (note: the creation of this Python Code is supported by ChatGPT),
+- Python Pandas: cleaning and merging bonds yield data for different maturity time into single file (note: the creation of this Python Code is supported by ChatGPT),
 - Power Query: Merging all cleansed bonds yield data for 25 countries
 - MS SQL Server: Main Relational Database Management Systems (RDBMS) for devising the database.  
 
@@ -19,6 +20,7 @@ Further, in devising Database Model for World Government Bonds Yield Data Wareho
 **Figure 1. Database Model Diagram for World Government Bonds Yield**
 <img width="2710" height="2056" alt="World Government Bonds_Database Model" src="https://github.com/user-attachments/assets/db676194-7c8b-4a60-bdc6-69c471f367ee" />  
 
+## 🏗️ Chapter II: Medallion Database Architecture
 To create this Galaxy Schema, this repository implements Medallion Data Modelling, where three steps are utilized to model a database, namely Bronze Layer, Silver Layer, and Golder Layer. Specifically, each layer can be examined as follows:  
 - Bronze Layer: This layer encapsulates all raw data from data sources utilized for devising this database, such as investing.com .csv files for fact tables
 - Silver Layer: In this layer, all raw data are cleansed and become interpretable-ready data for both fact and dimension tables
