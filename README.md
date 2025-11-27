@@ -26,3 +26,8 @@ To create this Galaxy Schema, this repository implements Medallion Data Modellin
 - Silver Layer: In this layer, all raw data are cleansed and become interpretable-ready data for both fact and dimension tables
 - Golder Layer: Within this layer, all cleansed data within prior layer are adjusted for business-specific purpose by creating additional column (such as moving averages in this case)
 
+## 🖥️ Chapter III: Harnessing The Database
+Users can utilize this database to answer diverse questions regarding Global Government Bonds Market, such as the spread between Indonesia's 10-year government bonds yield and US 10-year one. Furthermore, this database can also be employed to perform various data-related activities, including:  
+- Visualizing Time Series for particular bonds yield of a country in order to observe its trajectory;
+- Performing Machine Learning (ML) Model to predict future bonds movement;
+- Executing Statistical analysis, such as hypothesis testing.
