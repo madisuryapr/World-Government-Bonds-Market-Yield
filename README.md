@@ -31,3 +31,6 @@ Users can utilize this database to answer diverse questions regarding Global Gov
 - Visualizing Time Series for particular bonds yield of a country in order to observe its trajectory;
 - Performing Machine Learning (ML) Model to predict future bonds movement;
 - Executing Statistical analysis, such as hypothesis testing.
+
+### 📓 Note
+Henceforth, I will create an Exploratory Data Analysis (EDA) by Employing R Programming and Quarto, Alongside Presentation file for further details regarding this database.
