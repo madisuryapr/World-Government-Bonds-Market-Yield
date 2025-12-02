@@ -25,6 +25,7 @@ To create this Galaxy Schema, this repository implements Medallion Data Modellin
 - Bronze Layer: This layer encapsulates all raw data from data sources utilized for devising this database, such as investing.com .csv files for fact tables
 - Silver Layer: In this layer, all raw data are cleansed and become interpretable-ready data for both fact and dimension tables
 - Golder Layer: Within this layer, all cleansed data within prior layer are adjusted for business-specific purpose by creating additional column (such as moving averages in this case)
+
 The conceptual framework of Medallion Architecture can be presented as follows:
 **Figure 2. Medallion Architecture Conceptual Framework**
 <img width="1920" height="1080" alt="Screenshot (604)" src="https://github.com/user-attachments/assets/721cb5a0-9eaf-401c-a3b1-f76248b6347a" />  
