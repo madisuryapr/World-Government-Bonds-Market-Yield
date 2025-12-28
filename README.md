@@ -32,7 +32,7 @@ The conceptual framework of Medallion Architecture can be presented as follows:
 <img width="1920" height="1080" alt="Screenshot (604)" src="https://github.com/user-attachments/assets/721cb5a0-9eaf-401c-a3b1-f76248b6347a" />  
 
 ## 🖥️ Chapter III: Harnessing The Database
-Users can utilize this database to answer diverse questions regarding Global Government Bonds Market, such as the spread between Indonesia's 10-year government bonds yield and US 10-year one. Furthermore, this database can also be employed to perform various data-related activities, including:  
+Users is able to harness this database to answer diverse questions regarding Global Government Bonds Market, such as the spread between Indonesia's 10-year government bonds yield and US 10-year one. Furthermore, this database can also be employed to perform various data-related activities, including:  
 - Visualizing Time Series for particular bonds yield of a country in order to observe its trajectory;
 - Performing Machine Learning (ML) Model to predict future bonds movement;
 - Executing Statistical analysis, such as hypothesis testing.
