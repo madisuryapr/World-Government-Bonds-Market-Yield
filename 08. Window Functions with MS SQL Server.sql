@@ -1,4 +1,4 @@
-/* Implementing window functions to answering business-related questions */
+/* Implementing window functions to answering business-related questions for particular bonds rate*/
 
 -- Use gold_world_gov_bonds database
 USE gold_world_gov_bonds;
@@ -124,4 +124,5 @@ SELECT
     MaxYieldPrice,
     RANK() OVER (ORDER BY MaxYieldPrice DESC) AS BondRank,
     DENSE_RANK() OVER (ORDER BY MaxYieldPrice DESC) AS BondRankDense
+
 FROM MaxGBY5Y;
